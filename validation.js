@@ -5,3 +5,6 @@ if (typeof number === 'number') {
 else {
     console.log('value is not a number');
 }
+
+const numbers = [33, 6, 631];
+console.log(Array.isArray(numbers));
